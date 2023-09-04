@@ -1,0 +1,54 @@
+{
+    "runs": [
+        {
+            "name": "Ima A. Waters",
+            "runs": 88,
+            "stars": 1,
+            "total_avaliations": 20,
+            "photoUrl": "https://images.pexels.com/photos/1820947/pexels-photo-1820947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "avaliations": [
+                {
+                    "user": "Andrea F. Kinney",
+                    "photoUrl": "https://images.pexels.com/photos/5748868/pexels-photo-5748868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                    "avaliation": "My dolphin puns are terrible on porpoise."
+                },
+                {
+                    "user": "Andrew A. Morrison",
+                    "photoUrl": "https://images.pexels.com/photos/8867242/pexels-photo-8867242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                    "avaliation": "I'm thinking of reasons to go to Switzerland. The flag is a big plus."
+                },
+                {
+                    "user": "Éric N. Aprecio",
+                    "photoUrl": "https://images.pexels.com/photos/64385/pexels-photo-64385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                    "avaliation": "Este usuário não quer se pronunciar, e só comentou isso:"
+                }
+            ]
+        }
+    ],
+    "canceled": [
+        {
+            "name": "Linda J. Bolden",
+            "runs": 43,
+            "stars": 2,
+            "total_avaliations": 13,
+            "photoUrl": "https://images.pexels.com/photos/6094038/pexels-photo-6094038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "avaliations": [
+                {
+                    "user": "Lee D. White",
+                    "photoUrl": "https://images.pexels.com/photos/9271208/pexels-photo-9271208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                    "avaliation": "I'm reading a book about anti-gravity. I can't put it down."
+                },
+                {
+                    "user": "Steven J. Andre",
+                    "photoUrl": "https://images.pexels.com/photos/4479544/pexels-photo-4479544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                    "avaliation": "Once you've seen one shopping center, you've seen the mall."
+                },
+                {
+                    "user": "Éric N. Aprecio",
+                    "photoUrl": "https://images.pexels.com/photos/64385/pexels-photo-64385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                    "avaliation": "Este usuário não quer se pronunciar, e só comentou isso:"
+                }
+            ]
+        }
+    ]
+}

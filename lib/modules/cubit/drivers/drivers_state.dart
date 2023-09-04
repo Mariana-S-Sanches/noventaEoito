@@ -16,6 +16,7 @@ class DriversLoadingState extends DriversState {
   @override
   List<Object> get props => [prop];
 }
+
 class DriversLoadState extends DriversState {
   final bool prop;
 
@@ -26,12 +27,20 @@ class DriversLoadState extends DriversState {
 }
 
 class DriversSucessState extends DriversState {
-  final List<DriversModel>  wordsModel;
+  final List<DriversModel> driversModel;
 
-  DriversSucessState(this.wordsModel);
+  DriversSucessState(this.driversModel);
 
   @override
-  List<Object> get props => [wordsModel];
+  List<Object> get props => [driversModel];
+}
+class DriverRunState extends DriversState {
+  final DriversModel driver;
+
+  DriverRunState(this.driver);
+
+  @override
+  List<Object> get props => [driver];
 }
 
 class DriversErrorState extends DriversState {

@@ -12,6 +12,7 @@ class DriversModel {
   int runs;
   int stars;
   String name;
+  String photoUrl;
   int totalAvaliations;
   List<Avaliation> avaliations;
 
@@ -19,6 +20,7 @@ class DriversModel {
     required this.runs,
     required this.name,
     required this.stars,
+    required this.photoUrl,
     required this.avaliations,
     required this.totalAvaliations,
   });
@@ -27,6 +29,7 @@ class DriversModel {
         name: json["name"],
         runs: json["runs"],
         stars: json["stars"],
+        photoUrl: json["photoUrl"],
         totalAvaliations: json["total_avaliations"],
         avaliations: List<Avaliation>.from(json["avaliations"].map((x) => Avaliation.fromJson(x))),
       );
@@ -35,6 +38,7 @@ class DriversModel {
         "name": name,
         "runs": runs,
         "stars": stars,
+        "photoUrl": photoUrl,
         "total_avaliations": totalAvaliations,
         "avaliations": List<dynamic>.from(avaliations.map((x) => x.toJson())),
       };
@@ -42,20 +46,24 @@ class DriversModel {
 
 class Avaliation {
   String user;
+  String photoUrl;
   String avaliation;
 
   Avaliation({
     required this.user,
+    required this.photoUrl,
     required this.avaliation,
   });
 
   factory Avaliation.fromJson(Map<String, dynamic> json) => Avaliation(
-        user: json["user"],
+        user: json["user"] ?? 'Convidado :)',
+        photoUrl: json["photoUrl"] ?? 'https://eitrawmaterials.eu/wp-content/uploads/2016/09/person-icon.png',
         avaliation: json["avaliation"],
       );
 
   Map<String, dynamic> toJson() => {
         "user": user,
+        "photoUrl": photoUrl,
         "avaliation": avaliation,
       };
 }
